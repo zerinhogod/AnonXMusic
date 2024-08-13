@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = 21782992
+API_HASH = "5c8a12b9dd70d182e11d9ead5d357dab"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = "7290157519:AAEpxiPRdd_e662Hi63tsHjfbofkJQRVlvs"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://combinado:combinado@cluster0.2a7qm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = -1002246269016
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = 672466909
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = "AQFMYdAAlhdmdT54AAteIiqpPpf1sEm9WGj_95conNnzQswFl8exaDC2YRcwectMiKBTXNVIQT18blP7BvFwY9oDjr_4KiDFjYeZP1whpkbpqChZ6F_k42B_5RTzDgBSgbXRCKJGhHo5jM_v4Dg6w5iCvKmZVYVHQzqNh07V1wf1sNpyDyCcF857SVFxK5tNolji6E0Phk3HGAP1nb3b7YFbma4MjCsqaUZ1HCicEW2LmafJD1LXDFbvPvcM-D_HglHBHfc_qNDlIL4mVayiic-JXfR6qVfXAGc3fTGGifufx_MRQIh3mOf-0Z5dTocPh36rCga4q93FeGH0xEP-5lEe-zYTRQAAAAAoFQfdAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,15 +78,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/3843e2f17e49395e4adab.png"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/adc241f65e920429b824f.png"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/fe4373a26d55df8ed04e5.png"
+STATS_IMG_URL = "https://te.legra.ph/file/5291ecdc07dd635bc1a81.png"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/fe4373a26d55df8ed04e5.png"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/fe4373a26d55df8ed04e5.png"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
